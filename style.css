@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: :0;
+}
+
+#header{
+    height: 100vh;
+    background-image: url(images/image.jpg);
+    background-position: center;
+    background-size:cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 100px;
+}
+.header-text{
+    max-width: 350px;
+    margin-top: 140px;
+}
+h1{
+    font-size: 34px;
+    color: burlywood;
+}
+p{
+    color:burlywood;
+}
