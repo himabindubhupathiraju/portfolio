@@ -4,19 +4,18 @@
 }
 
 #header{
-    height: 100vh;
-    background-image: url(images/image.jpg);
+    
+    background-color: #eae5e5;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: stretch;
+   
 }
 .container{
     margin-right: 100px;
     margin-left: 100px;
 }
-.logo{
-    margin-top: 30px;
-    width: 100px;
-}
+
 .header-text{
     max-width: 350px;
     margin-top: 140px;
@@ -24,7 +23,55 @@
 h1{
     font-size: 34px;
     color: burlywood;
+    
 }
 p{
     color:burlywood;
+}
+.nav{
+    margin-left:30%;
+    tab-size: 4;
+}
+
+img{
+  width:240px;
+    height:240px;
+       border-radius: 50%;
+    margin-left:60%;
+    margin-top: 10%;
+    
+    
+}
+#resumeholder{
+    margin-left: 20%;
+    font-style: normal;
+    color: black;
+}
+#intro{
+    margin-left: 10%;
+}
+.btn-circle.btn-xl { 
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+    font-size: 12px; 
+    text-align: center; 
+    border: 0;
+} 
+.btn1{
+    background-color: #e83556;
+    color:white;
+
+}
+.btn2{
+    background-color: #61d0d4;
+    color:white;
+    margin-left: 5%;
+   
+}
+.btn3{
+    background-color: #d1c926;
+    color:white;
+    margin-left: 5%;
+   
 }
